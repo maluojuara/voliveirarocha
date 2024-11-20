@@ -1,0 +1,22 @@
+@import url("header.css");
+@import url("home.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins';
+    font-size: 16px;
+}
+
+
+:root {
+    --verde-escuro: #1D361F;
+    --bege-rosado-detalhes: #DFC8B6;
+    --verde-militar-secundario: #829774;
+}

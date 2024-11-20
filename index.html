@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritor Vinícus Oliveira Rocha</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Script -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img src="./img/nome-autor.svg" alt="Vinícius Oliveira Rocha">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="#">Obras</a>
+                </li>
+                <li>
+                    <a href="#">Acadêmico</a>
+                </li>
+                <li>
+                    <a href="#">Serviços</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div id="home-img">
+            <img src="./img/vinicius.jpg" alt="Fotografia de Vinícius Oliveira Rocha"/>
+        </div>
+        <div>
+            <h1>
+                Vinícius é <span id="h1-animation"></span>
+            </h1>
+
+            <p>
+                Vinícius Oliveira Rocha nasceu em São Paulo, mas é um nordestino de coração que cresceu na Bahia e em Sergipe. É autor do livro "O Destruidor de Mundos", primeiro volume da saga "O Kar-Tet ", e dos contos "A Outra Ana" e "Motorista Noturno da Rua da Frente". Apaixonado por cinema, séries, música e (óbvio) literatura, busca viver da escrita e tem muito a dizer ao mundo através das suas obras.
+            </p>
+        </div>
+        
+
+    </section>
+    
+
+    <script>
+        var typed = new Typed('#h1-animation', {
+            strings: ['escritor', 'jornalista', 'professor', 'pesquisador', 'revisor', 'crítico cultural'],
+            typeSpeed: 150,
+            loop: true, 
+        });
+    </script>
+    
+</body>
+</html>
