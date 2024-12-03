@@ -6,6 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding: 11vh 8vw 11vh 8vw;
+    box-sizing: border-box;
 }
 
 #obras-publicadas h2 {
@@ -43,4 +45,13 @@
 
 .livro a:hover {
     background-color: var(--verde-militar-secundario);
+}
+
+
+@media screen and (max-width: 1320px) {
+    #livros-container {
+        flex-direction: column;
+    }
+
+    
 }
