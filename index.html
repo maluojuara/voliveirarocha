@@ -21,16 +21,20 @@
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
+    <header id="header">
         <div id="header-nome-autor">
             <img src="./img/nome-autor.svg" alt="Vinícius Oliveira Rocha">
         </div>
         <nav>
-            <ul class="menu">
+            <!-- <div id="menu-responsivo">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> -->
+            <ul id="menu">
                 <li>
                     <a href="#obras-publicadas">Obras</a>
                 </li>
@@ -150,19 +154,20 @@
         <div id="servicos-esquerda">
             <h4>SERVIÇOS</h4>
             <p>
-                Para informações sobre preços e disponibilidade,
+                Para informações sobre preços e disponibilidade, 
                 entre em contato pelo e-mail:
-                <span>voliveira96@gmail.com</span>
+                <a href="mailto:voliveira96@gmail.com">voliveira96@gmail.com</a>
             </p>
+            
 
         </div>
 
         <div id="servicos-direita">
-            <div id="servicos-direita-card">
+            <div class="servicos-direita-card">
                 <img src="./img/revisoes-literarias.svg" alt="Revisões literárias">
                 <p>Revisões literárias</p>
             </div>
-            <div id="servicos-direita-card">
+            <div class="servicos-direita-card">
                 <img src="./img/revisoes-academicas.png" alt="Revisões acadêmicas">
                 <p>Revisões acadêmicas</p>
             </div>
@@ -200,6 +205,10 @@
     <footer>
         <p>Site construído com muito carinho por Malu Araújo. © 2024 Todos os direitos reservados. </p>
     </footer>
+
+    <div id="voltar-topo">
+        <a href="#header"><img src="./img/seta-voltar.svg" alt="Voltar ao topo"></a>
+    </div>
 
 </body>
 

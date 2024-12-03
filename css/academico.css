@@ -2,12 +2,17 @@
     background-color: var(--background-verde-claro);
     text-align: center;
     max-width: 100%;
-    padding: 4rem 10rem 8rem 10rem;
+    height: 100vh;
+    padding: 0 10rem 8rem 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #academico h2 {
     font-size: 3rem;
     color: var(--verde-escuro);
+    font-weight: 600;
 }
 
 #academico-container {
@@ -45,6 +50,10 @@
     font-size: 1.25rem;
 }
 
+#academico-esquerda button:hover {
+    opacity: 80%;
+}
+
 /* Carrossel  */
 
 .swiper {
@@ -65,8 +74,4 @@
 
 #academico-direita {
     border: 10px solid #F4EFE1;
-}
-
-#academico-esquerda button:hover {
-    opacity: 80%;
 }

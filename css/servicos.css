@@ -1,6 +1,8 @@
 #servicos {
     display: flex;
     max-width: 100%;
+    height: 100vh;
+    justify-content: center;
 }
 
 #servicos-esquerda {
@@ -10,8 +12,8 @@
     color: var(--bege-rosado-detalhes);
     width: 35%;
     padding: 20rem 10rem 20rem 15rem;
-    align-items: center;
     text-align: center;
+    justify-content: center;
     gap: 2.6rem;
 }
 
@@ -24,9 +26,10 @@
     font-size: 1.5rem;
 }
 
-#servicos-esquerda p span {
+#servicos-esquerda p a {
     font-weight: 600;
     text-decoration: underline;
+    color: var(--bege-rosado-detalhes);
 }
 
 #servicos-direita {
@@ -40,7 +43,7 @@
     justify-content: center;
 }
 
-#servicos-direita-card {
+.servicos-direita-card {
     display: flex;
     background-color: var(--verde-escuro);
     border-radius: 20px;
