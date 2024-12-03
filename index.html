@@ -1,40 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Escritor Vinícus Oliveira Rocha</title>
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Fontes -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Script -->
+    <script src="scripts.js" defer></script>
+
+    <!-- Scripts externos -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <div>
+        <div id="header-nome-autor">
             <img src="./img/nome-autor.svg" alt="Vinícius Oliveira Rocha">
         </div>
         <nav>
             <ul class="menu">
                 <li>
-                    <a href="#">Obras</a>
+                    <a href="#obras-publicadas">Obras</a>
                 </li>
                 <li>
-                    <a href="#">Acadêmico</a>
+                    <a href="#academico">Acadêmico</a>
                 </li>
                 <li>
-                    <a href="#">Serviços</a>
+                    <a href="#servicos">Serviços</a>
                 </li>
                 <li>
-                    <a href="#">Contato</a>
+                    <a href="#fale-comigo">Contato</a>
                 </li>
             </ul>
         </nav>
@@ -42,7 +49,7 @@
 
     <section id="home">
         <div id="home-img">
-            <img src="./img/vinicius.jpg" alt="Fotografia de Vinícius Oliveira Rocha"/>
+            <img src="./img/vinicius.jpg" alt="Fotografia de Vinícius Oliveira Rocha" />
         </div>
         <div>
             <h1>
@@ -50,21 +57,150 @@
             </h1>
 
             <p>
-                Vinícius Oliveira Rocha nasceu em São Paulo, mas é um nordestino de coração que cresceu na Bahia e em Sergipe. É autor do livro "O Destruidor de Mundos", primeiro volume da saga "O Kar-Tet ", e dos contos "A Outra Ana" e "Motorista Noturno da Rua da Frente". Apaixonado por cinema, séries, música e (óbvio) literatura, busca viver da escrita e tem muito a dizer ao mundo através das suas obras.
+                Vinícius Oliveira Rocha nasceu em São Paulo, mas é um nordestino de coração que cresceu na Bahia e em
+                Sergipe. É autor do livro "O Destruidor de Mundos", primeiro volume da saga "O Kar-Tet ", e dos contos
+                "A Outra Ana" e "Motorista Noturno da Rua da Frente". Apaixonado por cinema, séries, música e (óbvio)
+                literatura, busca viver da escrita e tem muito a dizer ao mundo através das suas obras.
             </p>
         </div>
-        
+
 
     </section>
-    
 
-    <script>
-        var typed = new Typed('#h1-animation', {
-            strings: ['escritor', 'jornalista', 'professor', 'pesquisador', 'revisor', 'crítico cultural'],
-            typeSpeed: 150,
-            loop: true, 
-        });
-    </script>
-    
+    <section id="obras-publicadas">
+        <h2>OBRAS PUBLICADAS</h2>
+
+        <div id="livros-container">
+            <div class="livro">
+                <img src="./img/livro-1.svg" alt="O Destruidor de Mundos">
+                <a href="https://www.amazon.com.br/DESTRUIDOR-MUNDOS-Série-Kar-tet/dp/8544421024?ref_=ast_author_dp" target="_blank">
+                    <p>Saiba mais</p>
+                    <img src="./img/arrow-right.svg" alt="Saiba mais">
+                </a>
+            </div>
+
+            <div class="livro">
+                <img src="./img/livro-2.svg" alt="A Outra Ana">
+                <a href="https://www.amazon.com.br/Outra-Ana-Vinícius-Oliveira-Rocha-ebook/dp/B0C88GSQTR" target="_blank">
+                    <p>Saiba mais</p>
+                    <img src="./img/arrow-right.svg" alt="Saiba mais">
+                </a>
+            </div>
+
+            <div class="livro">
+                <img src="./img/livro-3.svg" alt="Mororista Noturno da Rua da Frente">
+                <a href="https://www.amazon.com.br/Motorista-Noturno-Frente-Vinícius-Oliveira-ebook/dp/B0CNWCB39R?ref_=ast_author_mpb" target="_blank">
+                    <p>Saiba mais</p>
+                    <img src="./img/arrow-right.svg" alt="Saiba mais">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="academico">
+        <h2>ACADÊMICO</h2>
+
+        <div id="academico-container">
+            <div id="academico-esquerda">
+                <p>
+                    Vinícius é mestre em Comunicação pela UFS, graduado em Jornalismo pela mesma instituição e,
+                    atualmente, cursa Doutorado em Multimeios na Unicamp. Atuou como professor substituto no
+                    Departamento de Comunicação Social da UFS, onde também participou de atividades de pesquisa. Seus
+                    interesses acadêmicos incluem jornalismo cultural, jornalismo regional, geografias da comunicação e
+                    crítica cinematográfica.
+                </p>
+                <button>
+                    <a href="http://lattes.cnpq.br/3502767657599908" target="_blank">Currículo Lattes</a>
+                    <img src="./img/arrow-right-claro.svg" alt="Currículo Lattes">
+                </button>
+            </div>
+
+            <div id="academico-direita">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <img src="./img/carrossel/carrossel-1.jpeg" alt="Imagem do carrossel 1">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/carrossel/carrossel-2.jpeg" alt="Imagem do carrossel 2">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/carrossel/carrossel-3.jpeg" alt="Imagem do carrossel 3">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/carrossel/carrossel-4.jpeg" alt="Imagem do carrossel 4">
+                        </div>
+                    </div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"><i class="fas fa-arrow-left"></i></div>
+                    <div class="swiper-button-next"><i class="fas fa-arrow-right"></i></div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="servicos">
+        <div id="servicos-esquerda">
+            <h4>SERVIÇOS</h4>
+            <p>
+                Para informações sobre preços e disponibilidade,
+                entre em contato pelo e-mail:
+                <span>voliveira96@gmail.com</span>
+            </p>
+
+        </div>
+
+        <div id="servicos-direita">
+            <div id="servicos-direita-card">
+                <img src="./img/revisoes-literarias.svg" alt="Revisões literárias">
+                <p>Revisões literárias</p>
+            </div>
+            <div id="servicos-direita-card">
+                <img src="./img/revisoes-academicas.png" alt="Revisões acadêmicas">
+                <p>Revisões acadêmicas</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="fale-comigo">
+        <h5>FALE COMIGO</h5>
+        <p>Bora trocar uma ideia? Vai ser um prazer me conectar com você. (:</p>
+
+        <div id="fale-comigo-redes">
+            <a href="mailto:voliveira96@gmail.com" target="_blank">
+                <img src="./img/fale-comigo/email.svg" alt="E-mail">
+            </a>
+
+            <a href="https://wa.me/5579991513591" target="_blank">
+                <img src="./img/fale-comigo/whatsapp.svg" alt="WhatsApp">
+            </a>
+
+            <a href="https://www.instagram.com/escritorvorocha/" target="_blank">
+                <img src="./img/fale-comigo/insta.svg" alt="Instagram">
+            </a>
+
+            <a href="https://x.com/voliveira_95" target="_blank">
+                <img src="./img/fale-comigo/twitter.svg" alt="X">
+            </a>
+
+            <a href="https://www.linkedin.com/in/vinícius-oliveira-rocha-8488bb168/" target="_blank">
+                <img src="./img/fale-comigo/linkedin.svg" alt="LinkedIn">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Site construído com muito carinho por Malu Araújo. © 2024 Todos os direitos reservados. </p>
+    </footer>
+
 </body>
+
 </html>

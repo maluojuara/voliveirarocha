@@ -1,0 +1,27 @@
+#fale-comigo {
+    background-color: var(--background-verde-claro);
+    max-width: 100%;
+    text-align: center;
+    padding: 3rem 0;
+    color: var(--verde-escuro);
+}
+
+#fale-comigo h5 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#fale-comigo p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+#fale-comigo-redes {
+    display: flex;
+    gap: 1.75rem;
+    justify-content: center;
+}
+
+#fale-comigo-redes a:hover{
+    opacity: 80%;
+}

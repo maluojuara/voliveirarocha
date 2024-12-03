@@ -7,6 +7,12 @@ header {
     flex-direction: column;
 }
 
+#header-nome-autor {
+    transition: transform 0.3s ease-in-out;
+    height: auto; /* Altura padrão */
+    opacity: 1;   /* Visível */
+}
+
 .menu {
     display: flex;
     font-size: 1.5rem;

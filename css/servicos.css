@@ -1,0 +1,52 @@
+#servicos {
+    display: flex;
+    max-width: 100%;
+}
+
+#servicos-esquerda {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--verde-escuro);
+    color: var(--bege-rosado-detalhes);
+    width: 35%;
+    padding: 20rem 10rem 20rem 15rem;
+    align-items: center;
+    text-align: center;
+    gap: 2.6rem;
+}
+
+#servicos-esquerda h4 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+#servicos-esquerda p {
+    font-size: 1.5rem;
+}
+
+#servicos-esquerda p span {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#servicos-direita {
+    background-image: url("/img/servicos-background.svg");
+    background-size: cover;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#servicos-direita-card {
+    display: flex;
+    background-color: var(--verde-escuro);
+    border-radius: 20px;
+    width: 27%;
+    color: white;
+    font-size: 1.3rem;
+    padding: 3rem 2rem;
+    gap: 1.2rem;
+}

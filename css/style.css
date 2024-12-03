@@ -1,5 +1,10 @@
 @import url("header.css");
 @import url("home.css");
+@import url("obras-publicadas.css");
+@import url("academico.css");
+@import url("servicos.css");
+@import url("fale-comigo.css");
+@import url("footer.css");
 
 * {
     margin: 0;
@@ -7,6 +12,10 @@
     list-style: none;
     border: 0;
     text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 body {
@@ -17,6 +26,10 @@ body {
 
 :root {
     --verde-escuro: #1D361F;
+    --preto: #2B2929;
     --bege-rosado-detalhes: #DFC8B6;
     --verde-militar-secundario: #829774;
+    --verde-titulo-animacao: #859B48;
+    --background-claro: #ECE5DF;
+    --background-verde-claro: #C4C7B6;
 }

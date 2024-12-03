@@ -1,22 +1,52 @@
 #home {
     display: flex;
+    align-items: center;
+    gap: 6rem;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: var(--background-claro);
+    padding: 8rem 20rem;
 }
+
+#home-img {
+    position: relative;
+    border-radius: 50%;
+    width: 30rem;
+    height: 30rem;
+}
+
 #home-img img {
     border-radius: 50%;
     object-fit: cover;
-    width: 33rem;
-    height: 33rem;
+    width: 30rem;
+    height: 30rem;
     border: 10px solid var(--verde-militar-secundario);
-    position: relative;
 }
 
 #home-img::after {
     content: "";
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
     width: 100%;
     height: 100%;
-    background-color: rgba(255, 0, 0, 0.5);  /* Cor vermelha com transparência */
-    border-radius: 50%;  /* Mantém a máscara redonda */
+    background-color: rgba(29, 54, 31, 0.2);  
+    border-radius: 50%; 
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 3.25rem;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+#h1-animation {
+    color: var(--verde-titulo-animacao);
+}
+
+#home p {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+    color: var(--preto);
 }
