@@ -1,8 +1,9 @@
 #servicos {
     display: flex;
     max-width: 100%;
-    height: 100vh;
     justify-content: center;
+    align-items: stretch;
+    min-height: 70vh;
 }
 
 #servicos-esquerda {
@@ -10,21 +11,18 @@
     flex-direction: column;
     background-color: var(--verde-escuro);
     color: var(--bege-rosado-detalhes);
-    width: 35%;
-    padding: 20rem 10rem 20rem 15rem;
+    width: 25%;
+    padding: 5rem 12rem;
     text-align: center;
     justify-content: center;
     gap: 2.6rem;
 }
 
 #servicos-esquerda h4 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 600;
 }
 
-#servicos-esquerda p {
-    font-size: 1.5rem;
-}
 
 #servicos-esquerda p a {
     font-weight: 600;
@@ -33,7 +31,7 @@
 }
 
 #servicos-direita {
-    background-image: url("/img/servicos-background.svg");
+    background-image: url("../img/servicos-background.svg");
     background-size: cover;
     width: 50%;
     display: flex;
@@ -49,7 +47,11 @@
     border-radius: 20px;
     width: 27%;
     color: white;
-    font-size: 1.3rem;
-    padding: 3rem 2rem;
+    padding: 2.5rem 1.8rem;
     gap: 1.2rem;
+    margin-right: 2rem;
+}
+
+.servicos-direita-card img {
+    width: 30%;
 }

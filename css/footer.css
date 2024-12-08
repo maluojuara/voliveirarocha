@@ -3,6 +3,7 @@ footer {
     color: var(--verde-escuro);
     text-align: center;
     padding: 1.3rem 0;
+    font-size: 0.6rem;
 }
 
 
@@ -18,8 +19,8 @@ footer {
 }
 
 #voltar-topo img {
-    width: 6rem; 
-    height: 6rem; 
+    width: 5rem; 
+    height: 5rem; 
 }
 
 #voltar-topo.show {
