@@ -8,6 +8,8 @@
  <span> Vinícius Oliveira Rocha </span> 
 </h1>
 
+<img width="1440" alt="Vinícius Oliveira Rocha" src="https://github.com/user-attachments/assets/bd3074c4-7bab-45f5-b0f7-507d0bc85716">
+
 
 
 
@@ -42,6 +44,7 @@ This repository contains the files for the professional website developed for Vi
 
 ## 📲  Demonstration
 
+https://github.com/user-attachments/assets/449998c6-4a7e-40bf-a16f-547916f76bbc
 
 
 
