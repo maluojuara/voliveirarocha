@@ -31,3 +31,19 @@ header {
 #header-nome-autor img {
     width: 35%;
 }
+
+@media screen and (max-width: 990px) {
+    #menu {
+        gap: 7rem;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    #menu {
+        display: none;
+    }
+    #header-nome-autor img {
+        width: 80%;
+    }
+}
+

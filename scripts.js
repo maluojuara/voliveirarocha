@@ -28,13 +28,3 @@ window.addEventListener('scroll', () => {
         voltarTopo.classList.remove('show');
     }
 });
-
-// // RESPONSIVIDADE
-
-// // Menu
-// const menuBtn = document.getElementById('menu-responsivo');
-// const menu = document.getElementById('menu');
-
-// menuBtn.addEventListener('click', () => {
-//     menu.style.display = (menu.style.display === 'flex') ? 'none' : 'flex';
-// });
