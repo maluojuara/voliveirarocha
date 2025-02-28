@@ -31,3 +31,9 @@ footer {
     transform: scale(1.1); 
     transition: transform 0.2s ease-in-out;
 }
+
+@media screen and (max-width: 1010px) {
+    #voltar-topo img {
+        display: none;
+    }
+}

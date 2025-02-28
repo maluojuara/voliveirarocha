@@ -24,3 +24,10 @@
 #fale-comigo-redes a:hover{
     opacity: 80%;
 }
+
+@media screen and (max-width: 1010px) {
+    #fale-comigo {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}

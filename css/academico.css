@@ -74,3 +74,9 @@
 #academico-direita {
     border: 10px solid #F4EFE1;
 }
+
+@media screen and (max-width: 1140px) {
+    #academico-container {
+        flex-direction: column;
+    }
+}

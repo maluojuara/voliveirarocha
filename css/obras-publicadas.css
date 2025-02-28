@@ -23,7 +23,7 @@
 .livro {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 2rem;
     align-items: center;
     max-width: 16rem;
 }
@@ -49,4 +49,32 @@
 .livro a:hover {
     background-color: var(--verde-militar-secundario);
 }
+
+@media screen and (max-width: 1190px) {
+    .livro {
+        max-width: 12rem;
+    }
+    #obras-publicadas h2 {
+        font-size: 1.8rem;
+    }
+
+
+}
+
+@media screen and (max-width: 1010px) {
+    .livro {
+        margin-top: 4rem;
+    }
+
+    #obras-publicadas h2 {
+        padding-bottom: 0;
+    }
+
+    #livros-container {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
 
