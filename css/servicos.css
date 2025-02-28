@@ -62,8 +62,8 @@
     }
 
     #servicos-esquerda {
-        width: 100%; /* Ocupa toda a largura da tela */
-        padding: 4rem; /* Reduz o padding para telas menores */
+        width: 100%; 
+        padding: 4rem; 
     }
 
     #servicos-esquerda p {
@@ -75,7 +75,7 @@
     }
 
     .servicos-direita-card {
-        width: 80%; /* Ajusta a largura dos cards */
-        margin-right: 0; /* Remove a margem lateral */
+        width: 80%;
+        margin-right: 0; 
     }
 }
